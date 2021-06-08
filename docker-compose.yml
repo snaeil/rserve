@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  rserve:
+    build: .
+    ports:
+      - "6311:6311"
+
